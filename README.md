@@ -9,7 +9,7 @@ example.com
   expiry       2027-08-13 (299d)
   spf          ok
   dmarc        ok (p=reject)
-  nameservers  a.iana-servers.net, b.iana-servers.net
+  nameservers  hera.ns.cloudflare.com, elliott.ns.cloudflare.com
   mx           none
   OK       no problems found
 ```
