@@ -1,0 +1,15 @@
+{
+  "name": "domain-health-check",
+  "version": "0.1.0",
+  "description": "Check domain registration expiry, SPF, DMARC, nameservers and MX from the command line or CI. No dependencies, no API keys.",
+  "type": "module",
+  "bin": { "domain-health-check": "bin/domain-health-check.mjs" },
+  "exports": "./src/check.mjs",
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18.17" },
+  "keywords": ["dmarc", "spf", "dns", "domain", "expiry", "rdap", "email-security", "ci", "cli"],
+  "homepage": "https://github.com/paulet4a-commits/domain-health-check",
+  "repository": { "type": "git", "url": "https://github.com/paulet4a-commits/domain-health-check.git" },
+  "license": "MIT"
+}
